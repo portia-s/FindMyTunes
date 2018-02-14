@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D7003632033FCE000EBB117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7003622033FCE000EBB117 /* AppDelegate.swift */; };
+		2D7003652033FCE000EBB117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7003642033FCE000EBB117 /* ViewController.swift */; };
+		2D7003682033FCE000EBB117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7003662033FCE000EBB117 /* Main.storyboard */; };
+		2D70036A2033FCE000EBB117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7003692033FCE000EBB117 /* Assets.xcassets */; };
+		2D70036D2033FCE000EBB117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D70036B2033FCE000EBB117 /* LaunchScreen.storyboard */; };
+		2D7003782033FCE000EBB117 /* FindMyTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7003772033FCE000EBB117 /* FindMyTunesTests.swift */; };
+		2D7003832033FCE000EBB117 /* FindMyTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7003822033FCE000EBB117 /* FindMyTunesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D7003742033FCE000EBB117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D7003572033FCE000EBB117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D70035E2033FCE000EBB117;
+			remoteInfo = FindMyTunes;
+		};
+		2D70037F2033FCE000EBB117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D7003572033FCE000EBB117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D70035E2033FCE000EBB117;
+			remoteInfo = FindMyTunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D70035F2033FCE000EBB117 /* FindMyTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7003622033FCE000EBB117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D7003642033FCE000EBB117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D7003672033FCE000EBB117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D7003692033FCE000EBB117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D70036C2033FCE000EBB117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D70036E2033FCE000EBB117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7003732033FCE000EBB117 /* FindMyTunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyTunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7003772033FCE000EBB117 /* FindMyTunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyTunesTests.swift; sourceTree = "<group>"; };
+		2D7003792033FCE000EBB117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D70037E2033FCE000EBB117 /* FindMyTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7003822033FCE000EBB117 /* FindMyTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyTunesUITests.swift; sourceTree = "<group>"; };
+		2D7003842033FCE000EBB117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D70035C2033FCE000EBB117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7003702033FCE000EBB117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D70037B2033FCE000EBB117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D7003562033FCDF00EBB117 = {
+			isa = PBXGroup;
+			children = (
+				2D7003612033FCE000EBB117 /* FindMyTunes */,
+				2D7003762033FCE000EBB117 /* FindMyTunesTests */,
+				2D7003812033FCE000EBB117 /* FindMyTunesUITests */,
+				2D7003602033FCE000EBB117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D7003602033FCE000EBB117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D70035F2033FCE000EBB117 /* FindMyTunes.app */,
+				2D7003732033FCE000EBB117 /* FindMyTunesTests.xctest */,
+				2D70037E2033FCE000EBB117 /* FindMyTunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D7003612033FCE000EBB117 /* FindMyTunes */ = {
+			isa = PBXGroup;
+			children = (
+				2D7003622033FCE000EBB117 /* AppDelegate.swift */,
+				2D7003642033FCE000EBB117 /* ViewController.swift */,
+				2D7003662033FCE000EBB117 /* Main.storyboard */,
+				2D7003692033FCE000EBB117 /* Assets.xcassets */,
+				2D70036B2033FCE000EBB117 /* LaunchScreen.storyboard */,
+				2D70036E2033FCE000EBB117 /* Info.plist */,
+			);
+			path = FindMyTunes;
+			sourceTree = "<group>";
+		};
+		2D7003762033FCE000EBB117 /* FindMyTunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D7003772033FCE000EBB117 /* FindMyTunesTests.swift */,
+				2D7003792033FCE000EBB117 /* Info.plist */,
+			);
+			path = FindMyTunesTests;
+			sourceTree = "<group>";
+		};
+		2D7003812033FCE000EBB117 /* FindMyTunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D7003822033FCE000EBB117 /* FindMyTunesUITests.swift */,
+				2D7003842033FCE000EBB117 /* Info.plist */,
+			);
+			path = FindMyTunesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D70035E2033FCE000EBB117 /* FindMyTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D7003872033FCE000EBB117 /* Build configuration list for PBXNativeTarget "FindMyTunes" */;
+			buildPhases = (
+				2D70035B2033FCE000EBB117 /* Sources */,
+				2D70035C2033FCE000EBB117 /* Frameworks */,
+				2D70035D2033FCE000EBB117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyTunes;
+			productName = FindMyTunes;
+			productReference = 2D70035F2033FCE000EBB117 /* FindMyTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D7003722033FCE000EBB117 /* FindMyTunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D70038A2033FCE000EBB117 /* Build configuration list for PBXNativeTarget "FindMyTunesTests" */;
+			buildPhases = (
+				2D70036F2033FCE000EBB117 /* Sources */,
+				2D7003702033FCE000EBB117 /* Frameworks */,
+				2D7003712033FCE000EBB117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D7003752033FCE000EBB117 /* PBXTargetDependency */,
+			);
+			name = FindMyTunesTests;
+			productName = FindMyTunesTests;
+			productReference = 2D7003732033FCE000EBB117 /* FindMyTunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D70037D2033FCE000EBB117 /* FindMyTunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D70038D2033FCE000EBB117 /* Build configuration list for PBXNativeTarget "FindMyTunesUITests" */;
+			buildPhases = (
+				2D70037A2033FCE000EBB117 /* Sources */,
+				2D70037B2033FCE000EBB117 /* Frameworks */,
+				2D70037C2033FCE000EBB117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D7003802033FCE000EBB117 /* PBXTargetDependency */,
+			);
+			name = FindMyTunesUITests;
+			productName = FindMyTunesUITests;
+			productReference = 2D70037E2033FCE000EBB117 /* FindMyTunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D7003572033FCE000EBB117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Portia Sharma";
+				TargetAttributes = {
+					2D70035E2033FCE000EBB117 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2D7003722033FCE000EBB117 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D70035E2033FCE000EBB117;
+					};
+					2D70037D2033FCE000EBB117 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D70035E2033FCE000EBB117;
+					};
+				};
+			};
+			buildConfigurationList = 2D70035A2033FCE000EBB117 /* Build configuration list for PBXProject "FindMyTunes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D7003562033FCDF00EBB117;
+			productRefGroup = 2D7003602033FCE000EBB117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D70035E2033FCE000EBB117 /* FindMyTunes */,
+				2D7003722033FCE000EBB117 /* FindMyTunesTests */,
+				2D70037D2033FCE000EBB117 /* FindMyTunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D70035D2033FCE000EBB117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D70036D2033FCE000EBB117 /* LaunchScreen.storyboard in Resources */,
+				2D70036A2033FCE000EBB117 /* Assets.xcassets in Resources */,
+				2D7003682033FCE000EBB117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7003712033FCE000EBB117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D70037C2033FCE000EBB117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D70035B2033FCE000EBB117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7003652033FCE000EBB117 /* ViewController.swift in Sources */,
+				2D7003632033FCE000EBB117 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D70036F2033FCE000EBB117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7003782033FCE000EBB117 /* FindMyTunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D70037A2033FCE000EBB117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7003832033FCE000EBB117 /* FindMyTunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D7003752033FCE000EBB117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D70035E2033FCE000EBB117 /* FindMyTunes */;
+			targetProxy = 2D7003742033FCE000EBB117 /* PBXContainerItemProxy */;
+		};
+		2D7003802033FCE000EBB117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D70035E2033FCE000EBB117 /* FindMyTunes */;
+			targetProxy = 2D70037F2033FCE000EBB117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D7003662033FCE000EBB117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D7003672033FCE000EBB117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D70036B2033FCE000EBB117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D70036C2033FCE000EBB117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D7003852033FCE000EBB117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D7003862033FCE000EBB117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D7003882033FCE000EBB117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2278J6LL2;
+				INFOPLIST_FILE = FindMyTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaycheck.FindMyTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D7003892033FCE000EBB117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2278J6LL2;
+				INFOPLIST_FILE = FindMyTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaycheck.FindMyTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D70038B2033FCE000EBB117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2278J6LL2;
+				INFOPLIST_FILE = FindMyTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaycheck.FindMyTunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyTunes.app/FindMyTunes";
+			};
+			name = Debug;
+		};
+		2D70038C2033FCE000EBB117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2278J6LL2;
+				INFOPLIST_FILE = FindMyTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaycheck.FindMyTunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyTunes.app/FindMyTunes";
+			};
+			name = Release;
+		};
+		2D70038E2033FCE000EBB117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2278J6LL2;
+				INFOPLIST_FILE = FindMyTunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaycheck.FindMyTunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyTunes;
+			};
+			name = Debug;
+		};
+		2D70038F2033FCE000EBB117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2278J6LL2;
+				INFOPLIST_FILE = FindMyTunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaycheck.FindMyTunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyTunes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D70035A2033FCE000EBB117 /* Build configuration list for PBXProject "FindMyTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7003852033FCE000EBB117 /* Debug */,
+				2D7003862033FCE000EBB117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D7003872033FCE000EBB117 /* Build configuration list for PBXNativeTarget "FindMyTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7003882033FCE000EBB117 /* Debug */,
+				2D7003892033FCE000EBB117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D70038A2033FCE000EBB117 /* Build configuration list for PBXNativeTarget "FindMyTunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D70038B2033FCE000EBB117 /* Debug */,
+				2D70038C2033FCE000EBB117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D70038D2033FCE000EBB117 /* Build configuration list for PBXNativeTarget "FindMyTunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D70038E2033FCE000EBB117 /* Debug */,
+				2D70038F2033FCE000EBB117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D7003572033FCE000EBB117 /* Project object */;
+}
